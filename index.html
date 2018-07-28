@@ -8,7 +8,45 @@
     <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-    
+        <div id="container">
+                <h1 id="title">Performance Bicycle Shop Survey</h1>
+                <p id="description">Let us know about your experience at Performance Bicycle, Boise.</p>
+                <form action="" method="get" id="survey-form">
+                  <div class="survey"><label class="labels" id="name-label">Name <input id="name" class="inputs" placeholder="full name" type="name" required="name"</input></label></div>
+                  <div class="survey"><label class="labels" id="email-label">Email <input id="email" class="inputs" placeholder="email address" type="email" required="email"></input></label></div>
+                  <div class="survey"><label class="labels" id="number-label">How old are you? <input id="number" class="inputs" type="number"  min="13" max="99" required="number" placeholder="age"></input></label></div>
+                  <div id="dropdown" class="survey"><label class="labels">What type of bicycle do you wish<br> we carried a larger selection of? <select class="inputs">
+                <option selected value="ns" name="no-selection" disabled>Select One</option>
+                <option value="tour" name="touring">Touring</option>
+                <option value="mtn" name="mountain">Mountain</option>
+                <option value="downhill" name="downhill">Downhill</option>
+                <option value="road" name="road">Road</option>
+                <option value="hybrid" name="hybrid">Hybrid</option>
+                <option value="cruise" name="cruiser">Cruiser</option>
+                <option value="bmx" name="bmx">BMX</option>
+                <option value="tricycle">Tricycle</option>
+                <option value="kids">Kid's</option>
+                </label></select>
+                  </div>
+                  <div class="survey"><label for="customer-exp"> Rate your experience and satisfaction with the staff of PBS, Boise <br>
+                <label> Exceptional <input value=" exc" name="customer-exp" type="radio"></label><br>
+                    <label> Good <input value="good" name="customer-exp" type="radio"></label><br>
+                    <label> Fair <input value="fair" name="customer-exp" type="radio"></label><br>
+                    <label> Poor <input value="poor" name="customer-exp" type="radio"></label></div>
+                  <div class="survey"><textarea placeholder="If you selected poor, please detail why." rows="2" cols="40" spellcheck="true" maxlength="200"></textarea></div>
+                  <div class="survey"><label>Select all of the bicycle shops you frequent</label><br>
+                    <label for="performance-bicycle">Performance Bicycle<input type="checkbox" value="performance-bicycle"></label>
+                    <label for="georges">George's Bicycles<input type="checkbox" value="georges"></label>
+                    <label for="bobs">Bob's Bicycles<input type="checkbox" value="bobs"></label>
+                    <label for="imt">Idaho Mountain Touring<input type="checkbox" value="imt"></label>
+                    <label for="rei">REI<input type="checkbox" value="rei"></label></div>
+                  <div class="survey"><textarea placeholder="Additional comments..." rows="3" cols="50"></textarea></div>
+              
+                  <div class="survey"><input id="submit" type="submit"></input>
+                  </div>
+                </form>
+              
+              </div>
     
 </body>
 </html>

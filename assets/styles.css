@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/assets/images/background.jpg');
+  }
+  #container {
+    width: 100%;
+    min-width: 500px;
+    margin: auto;
+  }
+  #title {
+    background: linear-gradient(180deg, #e74c3c, #e74c3c 60%, #f1948a);
+    color: white;
+    padding: 1%;
+    padding-left: 25%;
+    margin: 2% auto;
+    margin-left: 0%;
+    width: 50%;
+  }
+  #description {
+    background: linear-gradient(360deg, #e74c3c, #e74c3c 60%, #f1948a);
+    padding: 0.5%;
+    padding-right: 25%;
+    color: white;
+    margin: -1.5% auto;
+    margin-right: 0%;
+    width: 50%;
+  }
+  #survey-form {
+    background: linear-gradient(165deg, #e74c3c, #e74c3c 25%, #f1948a);
+    width: 65%;
+    margin: 3% auto;
+    border-radius: 20px;
+  }
+  .survey {
+    margin: 2% auto;
+    text-align: center; 
+  }
+  .inputs {
+    width: 90px;
+  }
+  #name{
+    position: relative;
+    top:
+  }
+  
+  
